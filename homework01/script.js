@@ -31,7 +31,7 @@ console.log("Сума решти:", sum);
 const averageValue = price / 3;
 console.log("Середнє значення:", averageValue.toFixed(2))
 
-const discount = Math.random(samsung + apple + xiaomi)*100;
+const discount = Math.random();
 console.log("Знижка", discount.toFixed(2));
 
 const sumPay = price - discount;
