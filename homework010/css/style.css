@@ -1,0 +1,49 @@
+body{
+    background-image: url(https://romny-vk.gov.ua/wp-content/uploads/2021/09/kontserti-dlya-tineidzherov-48b0307f-cefc-29b3-e32e-81fa033f324a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    display: block;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+.keys{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.key{
+    width: 100px;
+    height: 100px;
+    border: .4rem solid black;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+:active.key{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+.sound{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffc600;
+}
