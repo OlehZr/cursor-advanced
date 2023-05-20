@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(https://careers.easternpeak.com/wp-content/uploads/2022/02/Populiarni-movy-prohramuvannia-sered-rozrobnykiv.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.info{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.user-btn{
+    background-color: rgb(246, 194, 98);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #010c46;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.user-btn:hover{
+    opacity: 0.9;
+}
+.user-btn:active{
+    transform: scale(1.1);
+}
+.blocks{
+    margin: 50px 50px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex: 1;
+}
+.user-title{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    line-height: 58px;
+    font-size: 48px;
+    font-weight: 600;
+}
